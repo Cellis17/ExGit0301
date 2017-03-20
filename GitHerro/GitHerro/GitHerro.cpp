@@ -1,15 +1,17 @@
-// GitHerro.cpp : Defines the entry point for the console application.
-//
-
-#include <iostream>
-
-using namespace std;
-
-
-int main()
+string randomWord()
 {
-	cout << "Herro" << endl;
-	system("pause");
-	return 0;
-}
+	const int NUM_WORDS = 5;
+	const string WORDS[NUM_WORDS] =
+	{
+		"wall",
+		"glasses",
+		"labored",
+		"persistant",
+		"jumble"
+	};
 
+	int choice = (rand() % NUM_WORDS;
+	string word = WORDS[choice];
+
+	return word;
+}

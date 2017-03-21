@@ -1,15 +1,20 @@
-// GitHerro.cpp : Defines the entry point for the console application.
-//
-
-#include <iostream>
-
-using namespace std;
-
-
-int main()
+void play(const string& mysteriousWord)
 {
-	cout << "Herro" << endl;
-	system("pause");
-	return 0;
-}
+	string guess;
 
+	do {
+		cout << "Enter guess: ";
+		cin >> guess;
+		if ((guess != aWord) && (guess != "quit"))
+		{
+			cout << "WRONG!\n";
+		}
+	} while ((guess != aWord) && (guess != "quit"));
+
+	if (guess == aWord)
+	{
+		cout << "CORRECT!\n";
+	}
+
+	cout << "Thanks for playing.\n";
+}

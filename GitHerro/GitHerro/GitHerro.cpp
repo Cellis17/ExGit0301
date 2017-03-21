@@ -1,3 +1,13 @@
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+int main()
+{
+	return 0;
+}
+
 string mixUp(const string& aWord)
 {
 	string aJumble = aWord;
@@ -12,3 +22,4 @@ string mixUp(const string& aWord)
 	}
 	return aJumble;
 }
+

@@ -1,6 +1,3 @@
-// GitHerro.cpp : Defines the entry point for the console application.
-//
-
 #include <iostream>
 #include <string>
 #include <time.h>
@@ -20,4 +17,3 @@ int main()
 	system("pause");
 	return 0;
 }
-

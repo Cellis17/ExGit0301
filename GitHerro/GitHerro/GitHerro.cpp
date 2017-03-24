@@ -1,7 +1,7 @@
 void play(const string& mysteriousWord)
 {
 	string guess;
-
+	
 	do {
 		cout << "Enter guess: ";
 		cin >> guess;

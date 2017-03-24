@@ -1,14 +1,24 @@
-﻿Build started 3/20/2017 9:09:42 AM.
-     1>Project "Z:\GitHub\ExGit0301\GitHerro\GitHerro\GitHerro.vcxproj" on node 2 (Build target(s)).
+﻿Build started 3/22/2017 9:14:51 AM.
+     1>Project "Z:\GitStuffDone\ExGit0301\GitHerro\GitHerro\GitHerro.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt GitHerro.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt GitHerro.cpp stdafx.cpp
+         stdafx.cpp
          GitHerro.cpp
-       Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"Z:\GitHub\ExGit0301\GitHerro\Debug\GitHerro.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"Z:\GitHub\ExGit0301\GitHerro\Debug\GitHerro.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"Z:\GitHub\ExGit0301\GitHerro\Debug\GitHerro.lib" /MACHINE:X86 Debug\GitHerro.obj
-         Debug\stdafx.obj
-         GitHerro.vcxproj -> Z:\GitHub\ExGit0301\GitHerro\Debug\GitHerro.exe
-     1>Done Building Project "Z:\GitHub\ExGit0301\GitHerro\GitHerro\GitHerro.vcxproj" (Build target(s)).
+     1>z:\gitstuffdone\exgit0301\githerro\githerro\githerro.cpp(1): error C2146: syntax error : missing ';' before identifier 'randomWord'
+     1>z:\gitstuffdone\exgit0301\githerro\githerro\githerro.cpp(1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>z:\gitstuffdone\exgit0301\githerro\githerro\githerro.cpp(2): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>z:\gitstuffdone\exgit0301\githerro\githerro\githerro.cpp(4): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>z:\gitstuffdone\exgit0301\githerro\githerro\githerro.cpp(4): error C2146: syntax error : missing ';' before identifier 'WORDS'
+     1>z:\gitstuffdone\exgit0301\githerro\githerro\githerro.cpp(4): error C2065: 'WORDS' : undeclared identifier
+     1>z:\gitstuffdone\exgit0301\githerro\githerro\githerro.cpp(13): error C2143: syntax error : missing ')' before ';'
+     1>z:\gitstuffdone\exgit0301\githerro\githerro\githerro.cpp(13): error C3861: 'rand': identifier not found
+     1>z:\gitstuffdone\exgit0301\githerro\githerro\githerro.cpp(14): error C2146: syntax error : missing ';' before identifier 'word'
+     1>z:\gitstuffdone\exgit0301\githerro\githerro\githerro.cpp(14): error C2065: 'word' : undeclared identifier
+     1>z:\gitstuffdone\exgit0301\githerro\githerro\githerro.cpp(14): error C2065: 'WORDS' : undeclared identifier
+     1>z:\gitstuffdone\exgit0301\githerro\githerro\githerro.cpp(16): error C2065: 'word' : undeclared identifier
+         Generating Code...
+     1>Done Building Project "Z:\GitStuffDone\ExGit0301\GitHerro\GitHerro\GitHerro.vcxproj" (Build target(s)) -- FAILED.
 
-Build succeeded.
+Build FAILED.
 
-Time Elapsed 00:00:01.19
+Time Elapsed 00:00:02.50
